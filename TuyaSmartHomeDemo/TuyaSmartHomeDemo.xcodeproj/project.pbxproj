@@ -1,0 +1,867 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E1260C02633B78F00112035 /* TYUserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1260BF2633B78F00112035 /* TYUserCenterViewController.m */; };
+		5E1260DB2633B9BC00112035 /* TYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1260DA2633B9BC00112035 /* TYLoginViewController.m */; };
+		5E1261032633BEA900112035 /* TYRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1261022633BEA900112035 /* TYRegisterViewController.m */; };
+		5E1261322633FF2400112035 /* TYDeviceManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1261312633FF2400112035 /* TYDeviceManagerViewController.m */; };
+		5E12614226340BF200112035 /* TYTableViewSecionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E12614126340BF200112035 /* TYTableViewSecionModel.m */; };
+		5E12614C2634175300112035 /* TYCreateFamilyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E12614B2634175300112035 /* TYCreateFamilyViewController.m */; };
+		5E12617026341F1000112035 /* TYFamilyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E12616F26341F1000112035 /* TYFamilyListViewController.m */; };
+		5E345192263506E500059854 /* TYFamilyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E345191263506E500059854 /* TYFamilyDetailViewController.m */; };
+		5E3451982635136400059854 /* TYFamilyEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3451972635136400059854 /* TYFamilyEditViewController.m */; };
+		5E3451A126353E6800059854 /* TYFamilySelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3451A026353E6800059854 /* TYFamilySelectViewController.m */; };
+		5E3451A8263549B900059854 /* TYEZModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3451A7263549B900059854 /* TYEZModelViewController.m */; };
+		5E3451B126355E9E00059854 /* TYAPModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3451B026355E9E00059854 /* TYAPModelViewController.m */; };
+		5E3451CF26357CE100059854 /* TYBlueWiFiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3451CE26357CE100059854 /* TYBlueWiFiViewController.m */; };
+		5E3451F92636939100059854 /* TYDeviceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3451F82636939100059854 /* TYDeviceListViewController.m */; };
+		5E34520026369F4400059854 /* TYDeviceControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3451FF26369F4400059854 /* TYDeviceControlViewController.m */; };
+		5E3452092636A2AF00059854 /* TYBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3452082636A2AF00059854 /* TYBaseTableViewCell.m */; };
+		5E34520F2636A30E00059854 /* TYSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E34520E2636A30E00059854 /* TYSwitchTableViewCell.m */; };
+		5E34521B2636B43200059854 /* TYEnumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E34521A2636B43200059854 /* TYEnumTableViewCell.m */; };
+		5E3452212636BFF200059854 /* TYValueTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3452202636BFF200059854 /* TYValueTableViewCell.m */; };
+		5E3452272636C5C800059854 /* TYStringTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3452262636C5C800059854 /* TYStringTableViewCell.m */; };
+		5E3F65192633AEDE0019F99E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3F65182633AEDE0019F99E /* AppDelegate.m */; };
+		5E3F651F2633AEDE0019F99E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3F651E2633AEDE0019F99E /* ViewController.m */; };
+		5E3F65222633AEDE0019F99E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3F65202633AEDE0019F99E /* Main.storyboard */; };
+		5E3F65242633AEE10019F99E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E3F65232633AEE10019F99E /* Assets.xcassets */; };
+		5E3F65272633AEE10019F99E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3F65252633AEE10019F99E /* LaunchScreen.storyboard */; };
+		5E3F652A2633AEE10019F99E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3F65292633AEE10019F99E /* main.m */; };
+		5E3F65342633AEE10019F99E /* TuyaSmartHomeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3F65332633AEE10019F99E /* TuyaSmartHomeDemoTests.m */; };
+		5E3F653F2633AEE10019F99E /* TuyaSmartHomeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3F653E2633AEE10019F99E /* TuyaSmartHomeDemoUITests.m */; };
+		5E3F65572633AFDB0019F99E /* t_s.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 5E3F65552633AFDA0019F99E /* t_s.bmp */; };
+		74668C4CE95F41ED622D3CC8 /* libPods-TuyaSmartHomeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A9A2C5D0842316B29088A3 /* libPods-TuyaSmartHomeDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E3F65302633AEE10019F99E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E3F650C2633AEDE0019F99E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E3F65132633AEDE0019F99E;
+			remoteInfo = TuyaSmartHomeDemo;
+		};
+		5E3F653B2633AEE10019F99E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E3F650C2633AEDE0019F99E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E3F65132633AEDE0019F99E;
+			remoteInfo = TuyaSmartHomeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E1260BE2633B78F00112035 /* TYUserCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYUserCenterViewController.h; sourceTree = "<group>"; };
+		5E1260BF2633B78F00112035 /* TYUserCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYUserCenterViewController.m; sourceTree = "<group>"; };
+		5E1260D92633B9BC00112035 /* TYLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLoginViewController.h; sourceTree = "<group>"; };
+		5E1260DA2633B9BC00112035 /* TYLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLoginViewController.m; sourceTree = "<group>"; };
+		5E1261012633BEA900112035 /* TYRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYRegisterViewController.h; sourceTree = "<group>"; };
+		5E1261022633BEA900112035 /* TYRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYRegisterViewController.m; sourceTree = "<group>"; };
+		5E1261302633FF2400112035 /* TYDeviceManagerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYDeviceManagerViewController.h; sourceTree = "<group>"; };
+		5E1261312633FF2400112035 /* TYDeviceManagerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYDeviceManagerViewController.m; sourceTree = "<group>"; };
+		5E12614026340BF200112035 /* TYTableViewSecionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYTableViewSecionModel.h; sourceTree = "<group>"; };
+		5E12614126340BF200112035 /* TYTableViewSecionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYTableViewSecionModel.m; sourceTree = "<group>"; };
+		5E12614A2634175300112035 /* TYCreateFamilyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYCreateFamilyViewController.h; sourceTree = "<group>"; };
+		5E12614B2634175300112035 /* TYCreateFamilyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYCreateFamilyViewController.m; sourceTree = "<group>"; };
+		5E12616E26341F1000112035 /* TYFamilyListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYFamilyListViewController.h; sourceTree = "<group>"; };
+		5E12616F26341F1000112035 /* TYFamilyListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYFamilyListViewController.m; sourceTree = "<group>"; };
+		5E345190263506E500059854 /* TYFamilyDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYFamilyDetailViewController.h; sourceTree = "<group>"; };
+		5E345191263506E500059854 /* TYFamilyDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYFamilyDetailViewController.m; sourceTree = "<group>"; };
+		5E3451962635136400059854 /* TYFamilyEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYFamilyEditViewController.h; sourceTree = "<group>"; };
+		5E3451972635136400059854 /* TYFamilyEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYFamilyEditViewController.m; sourceTree = "<group>"; };
+		5E34519F26353E6800059854 /* TYFamilySelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYFamilySelectViewController.h; sourceTree = "<group>"; };
+		5E3451A026353E6800059854 /* TYFamilySelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYFamilySelectViewController.m; sourceTree = "<group>"; };
+		5E3451A6263549B900059854 /* TYEZModelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYEZModelViewController.h; sourceTree = "<group>"; };
+		5E3451A7263549B900059854 /* TYEZModelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYEZModelViewController.m; sourceTree = "<group>"; };
+		5E3451AF26355E9E00059854 /* TYAPModelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYAPModelViewController.h; sourceTree = "<group>"; };
+		5E3451B026355E9E00059854 /* TYAPModelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYAPModelViewController.m; sourceTree = "<group>"; };
+		5E3451CD26357CE100059854 /* TYBlueWiFiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYBlueWiFiViewController.h; sourceTree = "<group>"; };
+		5E3451CE26357CE100059854 /* TYBlueWiFiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYBlueWiFiViewController.m; sourceTree = "<group>"; };
+		5E3451F72636939100059854 /* TYDeviceListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYDeviceListViewController.h; sourceTree = "<group>"; };
+		5E3451F82636939100059854 /* TYDeviceListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYDeviceListViewController.m; sourceTree = "<group>"; };
+		5E3451FE26369F4400059854 /* TYDeviceControlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYDeviceControlViewController.h; sourceTree = "<group>"; };
+		5E3451FF26369F4400059854 /* TYDeviceControlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYDeviceControlViewController.m; sourceTree = "<group>"; };
+		5E3452072636A2AF00059854 /* TYBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYBaseTableViewCell.h; sourceTree = "<group>"; };
+		5E3452082636A2AF00059854 /* TYBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYBaseTableViewCell.m; sourceTree = "<group>"; };
+		5E34520D2636A30E00059854 /* TYSwitchTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYSwitchTableViewCell.h; sourceTree = "<group>"; };
+		5E34520E2636A30E00059854 /* TYSwitchTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYSwitchTableViewCell.m; sourceTree = "<group>"; };
+		5E3452192636B43200059854 /* TYEnumTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYEnumTableViewCell.h; sourceTree = "<group>"; };
+		5E34521A2636B43200059854 /* TYEnumTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYEnumTableViewCell.m; sourceTree = "<group>"; };
+		5E34521F2636BFF200059854 /* TYValueTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYValueTableViewCell.h; sourceTree = "<group>"; };
+		5E3452202636BFF200059854 /* TYValueTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYValueTableViewCell.m; sourceTree = "<group>"; };
+		5E3452252636C5C800059854 /* TYStringTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYStringTableViewCell.h; sourceTree = "<group>"; };
+		5E3452262636C5C800059854 /* TYStringTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYStringTableViewCell.m; sourceTree = "<group>"; };
+		5E3F65142633AEDE0019F99E /* TuyaSmartHomeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuyaSmartHomeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3F65172633AEDE0019F99E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E3F65182633AEDE0019F99E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E3F651D2633AEDE0019F99E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E3F651E2633AEDE0019F99E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E3F65212633AEDE0019F99E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E3F65232633AEE10019F99E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E3F65262633AEE10019F99E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E3F65282633AEE10019F99E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E3F65292633AEE10019F99E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E3F652F2633AEE10019F99E /* TuyaSmartHomeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuyaSmartHomeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3F65332633AEE10019F99E /* TuyaSmartHomeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TuyaSmartHomeDemoTests.m; sourceTree = "<group>"; };
+		5E3F65352633AEE10019F99E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E3F653A2633AEE10019F99E /* TuyaSmartHomeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuyaSmartHomeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3F653E2633AEE10019F99E /* TuyaSmartHomeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TuyaSmartHomeDemoUITests.m; sourceTree = "<group>"; };
+		5E3F65402633AEE10019F99E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E3F65552633AFDA0019F99E /* t_s.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = t_s.bmp; sourceTree = "<group>"; };
+		5E3F65562633AFDB0019F99E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B8A9A2C5D0842316B29088A3 /* libPods-TuyaSmartHomeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TuyaSmartHomeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5231A53C21D9B0CECAE843 /* Pods-TuyaSmartHomeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaSmartHomeDemo.release.xcconfig"; path = "Target Support Files/Pods-TuyaSmartHomeDemo/Pods-TuyaSmartHomeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E6F7343AEE2002CF66CD2A88 /* Pods-TuyaSmartHomeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaSmartHomeDemo.debug.xcconfig"; path = "Target Support Files/Pods-TuyaSmartHomeDemo/Pods-TuyaSmartHomeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E3F65112633AEDE0019F99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74668C4CE95F41ED622D3CC8 /* libPods-TuyaSmartHomeDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3F652C2633AEE10019F99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3F65372633AEE10019F99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BA3FA62999E100AD91C3CA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6F7343AEE2002CF66CD2A88 /* Pods-TuyaSmartHomeDemo.debug.xcconfig */,
+				CE5231A53C21D9B0CECAE843 /* Pods-TuyaSmartHomeDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E1260B22633B58000112035 /* Login&&Regisiter */ = {
+			isa = PBXGroup;
+			children = (
+				5E1260D92633B9BC00112035 /* TYLoginViewController.h */,
+				5E1260DA2633B9BC00112035 /* TYLoginViewController.m */,
+				5E1261012633BEA900112035 /* TYRegisterViewController.h */,
+				5E1261022633BEA900112035 /* TYRegisterViewController.m */,
+			);
+			path = "Login&&Regisiter";
+			sourceTree = "<group>";
+		};
+		5E1260B32633B74B00112035 /* DeviceManager */ = {
+			isa = PBXGroup;
+			children = (
+				5E3451FD26369E6300059854 /* cell */,
+				5E1261302633FF2400112035 /* TYDeviceManagerViewController.h */,
+				5E1261312633FF2400112035 /* TYDeviceManagerViewController.m */,
+				5E3451F72636939100059854 /* TYDeviceListViewController.h */,
+				5E3451F82636939100059854 /* TYDeviceListViewController.m */,
+				5E3451FE26369F4400059854 /* TYDeviceControlViewController.h */,
+				5E3451FF26369F4400059854 /* TYDeviceControlViewController.m */,
+			);
+			path = DeviceManager;
+			sourceTree = "<group>";
+		};
+		5E1260BD2633B77000112035 /* UserCenter */ = {
+			isa = PBXGroup;
+			children = (
+				5E1260BE2633B78F00112035 /* TYUserCenterViewController.h */,
+				5E1260BF2633B78F00112035 /* TYUserCenterViewController.m */,
+			);
+			path = UserCenter;
+			sourceTree = "<group>";
+		};
+		5E12613626340B4600112035 /* TableViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5E12614026340BF200112035 /* TYTableViewSecionModel.h */,
+				5E12614126340BF200112035 /* TYTableViewSecionModel.m */,
+			);
+			path = TableViewModel;
+			sourceTree = "<group>";
+		};
+		5E126149263416FF00112035 /* Family */ = {
+			isa = PBXGroup;
+			children = (
+				5E12614A2634175300112035 /* TYCreateFamilyViewController.h */,
+				5E12614B2634175300112035 /* TYCreateFamilyViewController.m */,
+				5E12616E26341F1000112035 /* TYFamilyListViewController.h */,
+				5E12616F26341F1000112035 /* TYFamilyListViewController.m */,
+				5E345190263506E500059854 /* TYFamilyDetailViewController.h */,
+				5E345191263506E500059854 /* TYFamilyDetailViewController.m */,
+				5E3451962635136400059854 /* TYFamilyEditViewController.h */,
+				5E3451972635136400059854 /* TYFamilyEditViewController.m */,
+				5E34519F26353E6800059854 /* TYFamilySelectViewController.h */,
+				5E3451A026353E6800059854 /* TYFamilySelectViewController.m */,
+			);
+			path = Family;
+			sourceTree = "<group>";
+		};
+		5E3451A52635499300059854 /* DeviceConfigure */ = {
+			isa = PBXGroup;
+			children = (
+				5E3451A6263549B900059854 /* TYEZModelViewController.h */,
+				5E3451A7263549B900059854 /* TYEZModelViewController.m */,
+				5E3451AF26355E9E00059854 /* TYAPModelViewController.h */,
+				5E3451B026355E9E00059854 /* TYAPModelViewController.m */,
+				5E3451CD26357CE100059854 /* TYBlueWiFiViewController.h */,
+				5E3451CE26357CE100059854 /* TYBlueWiFiViewController.m */,
+			);
+			path = DeviceConfigure;
+			sourceTree = "<group>";
+		};
+		5E3451FD26369E6300059854 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				5E3452072636A2AF00059854 /* TYBaseTableViewCell.h */,
+				5E3452082636A2AF00059854 /* TYBaseTableViewCell.m */,
+				5E34520D2636A30E00059854 /* TYSwitchTableViewCell.h */,
+				5E34520E2636A30E00059854 /* TYSwitchTableViewCell.m */,
+				5E3452192636B43200059854 /* TYEnumTableViewCell.h */,
+				5E34521A2636B43200059854 /* TYEnumTableViewCell.m */,
+				5E34521F2636BFF200059854 /* TYValueTableViewCell.h */,
+				5E3452202636BFF200059854 /* TYValueTableViewCell.m */,
+				5E3452252636C5C800059854 /* TYStringTableViewCell.h */,
+				5E3452262636C5C800059854 /* TYStringTableViewCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		5E3F650B2633AEDE0019F99E = {
+			isa = PBXGroup;
+			children = (
+				5E3F65162633AEDE0019F99E /* TuyaSmartHomeDemo */,
+				5E3F65322633AEE10019F99E /* TuyaSmartHomeDemoTests */,
+				5E3F653D2633AEE10019F99E /* TuyaSmartHomeDemoUITests */,
+				5E3F65152633AEDE0019F99E /* Products */,
+				5BA3FA62999E100AD91C3CA0 /* Pods */,
+				E76F29B7AC5D3DB3BF068862 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E3F65152633AEDE0019F99E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E3F65142633AEDE0019F99E /* TuyaSmartHomeDemo.app */,
+				5E3F652F2633AEE10019F99E /* TuyaSmartHomeDemoTests.xctest */,
+				5E3F653A2633AEE10019F99E /* TuyaSmartHomeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E3F65162633AEDE0019F99E /* TuyaSmartHomeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5E3451A52635499300059854 /* DeviceConfigure */,
+				5E126149263416FF00112035 /* Family */,
+				5E12613626340B4600112035 /* TableViewModel */,
+				5E1260BD2633B77000112035 /* UserCenter */,
+				5E1260B32633B74B00112035 /* DeviceManager */,
+				5E1260B22633B58000112035 /* Login&&Regisiter */,
+				5E3F65562633AFDB0019F99E /* PrefixHeader.pch */,
+				5E3F65552633AFDA0019F99E /* t_s.bmp */,
+				5E3F65172633AEDE0019F99E /* AppDelegate.h */,
+				5E3F65182633AEDE0019F99E /* AppDelegate.m */,
+				5E3F651D2633AEDE0019F99E /* ViewController.h */,
+				5E3F651E2633AEDE0019F99E /* ViewController.m */,
+				5E3F65202633AEDE0019F99E /* Main.storyboard */,
+				5E3F65232633AEE10019F99E /* Assets.xcassets */,
+				5E3F65252633AEE10019F99E /* LaunchScreen.storyboard */,
+				5E3F65282633AEE10019F99E /* Info.plist */,
+				5E3F65292633AEE10019F99E /* main.m */,
+			);
+			path = TuyaSmartHomeDemo;
+			sourceTree = "<group>";
+		};
+		5E3F65322633AEE10019F99E /* TuyaSmartHomeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E3F65332633AEE10019F99E /* TuyaSmartHomeDemoTests.m */,
+				5E3F65352633AEE10019F99E /* Info.plist */,
+			);
+			path = TuyaSmartHomeDemoTests;
+			sourceTree = "<group>";
+		};
+		5E3F653D2633AEE10019F99E /* TuyaSmartHomeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E3F653E2633AEE10019F99E /* TuyaSmartHomeDemoUITests.m */,
+				5E3F65402633AEE10019F99E /* Info.plist */,
+			);
+			path = TuyaSmartHomeDemoUITests;
+			sourceTree = "<group>";
+		};
+		E76F29B7AC5D3DB3BF068862 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8A9A2C5D0842316B29088A3 /* libPods-TuyaSmartHomeDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E3F65132633AEDE0019F99E /* TuyaSmartHomeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E3F65432633AEE10019F99E /* Build configuration list for PBXNativeTarget "TuyaSmartHomeDemo" */;
+			buildPhases = (
+				BF34E9084294887DB4157E38 /* [CP] Check Pods Manifest.lock */,
+				5E3F65102633AEDE0019F99E /* Sources */,
+				5E3F65112633AEDE0019F99E /* Frameworks */,
+				5E3F65122633AEDE0019F99E /* Resources */,
+				7B57020242E0B3FFF3E76D8F /* [CP] Embed Pods Frameworks */,
+				1799ACDB99D5AEC23865A255 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuyaSmartHomeDemo;
+			productName = TuyaSmartHomeDemo;
+			productReference = 5E3F65142633AEDE0019F99E /* TuyaSmartHomeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E3F652E2633AEE10019F99E /* TuyaSmartHomeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E3F65462633AEE10019F99E /* Build configuration list for PBXNativeTarget "TuyaSmartHomeDemoTests" */;
+			buildPhases = (
+				5E3F652B2633AEE10019F99E /* Sources */,
+				5E3F652C2633AEE10019F99E /* Frameworks */,
+				5E3F652D2633AEE10019F99E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E3F65312633AEE10019F99E /* PBXTargetDependency */,
+			);
+			name = TuyaSmartHomeDemoTests;
+			productName = TuyaSmartHomeDemoTests;
+			productReference = 5E3F652F2633AEE10019F99E /* TuyaSmartHomeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E3F65392633AEE10019F99E /* TuyaSmartHomeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E3F65492633AEE10019F99E /* Build configuration list for PBXNativeTarget "TuyaSmartHomeDemoUITests" */;
+			buildPhases = (
+				5E3F65362633AEE10019F99E /* Sources */,
+				5E3F65372633AEE10019F99E /* Frameworks */,
+				5E3F65382633AEE10019F99E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E3F653C2633AEE10019F99E /* PBXTargetDependency */,
+			);
+			name = TuyaSmartHomeDemoUITests;
+			productName = TuyaSmartHomeDemoUITests;
+			productReference = 5E3F653A2633AEE10019F99E /* TuyaSmartHomeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E3F650C2633AEDE0019F99E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					5E3F65132633AEDE0019F99E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					5E3F652E2633AEE10019F99E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 5E3F65132633AEDE0019F99E;
+					};
+					5E3F65392633AEE10019F99E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 5E3F65132633AEDE0019F99E;
+					};
+				};
+			};
+			buildConfigurationList = 5E3F650F2633AEDE0019F99E /* Build configuration list for PBXProject "TuyaSmartHomeDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E3F650B2633AEDE0019F99E;
+			productRefGroup = 5E3F65152633AEDE0019F99E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E3F65132633AEDE0019F99E /* TuyaSmartHomeDemo */,
+				5E3F652E2633AEE10019F99E /* TuyaSmartHomeDemoTests */,
+				5E3F65392633AEE10019F99E /* TuyaSmartHomeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E3F65122633AEDE0019F99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3F65272633AEE10019F99E /* LaunchScreen.storyboard in Resources */,
+				5E3F65242633AEE10019F99E /* Assets.xcassets in Resources */,
+				5E3F65572633AFDB0019F99E /* t_s.bmp in Resources */,
+				5E3F65222633AEDE0019F99E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3F652D2633AEE10019F99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3F65382633AEE10019F99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1799ACDB99D5AEC23865A255 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuyaSmartHomeDemo/Pods-TuyaSmartHomeDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuyaSmartHomeDemo/Pods-TuyaSmartHomeDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TuyaSmartHomeDemo/Pods-TuyaSmartHomeDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B57020242E0B3FFF3E76D8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuyaSmartHomeDemo/Pods-TuyaSmartHomeDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuyaSmartHomeDemo/Pods-TuyaSmartHomeDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TuyaSmartHomeDemo/Pods-TuyaSmartHomeDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF34E9084294887DB4157E38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TuyaSmartHomeDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E3F65102633AEDE0019F99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3452212636BFF200059854 /* TYValueTableViewCell.m in Sources */,
+				5E3451A126353E6800059854 /* TYFamilySelectViewController.m in Sources */,
+				5E3451B126355E9E00059854 /* TYAPModelViewController.m in Sources */,
+				5E3F651F2633AEDE0019F99E /* ViewController.m in Sources */,
+				5E3452272636C5C800059854 /* TYStringTableViewCell.m in Sources */,
+				5E34520F2636A30E00059854 /* TYSwitchTableViewCell.m in Sources */,
+				5E12614C2634175300112035 /* TYCreateFamilyViewController.m in Sources */,
+				5E345192263506E500059854 /* TYFamilyDetailViewController.m in Sources */,
+				5E3451F92636939100059854 /* TYDeviceListViewController.m in Sources */,
+				5E3451A8263549B900059854 /* TYEZModelViewController.m in Sources */,
+				5E1261322633FF2400112035 /* TYDeviceManagerViewController.m in Sources */,
+				5E12617026341F1000112035 /* TYFamilyListViewController.m in Sources */,
+				5E3451CF26357CE100059854 /* TYBlueWiFiViewController.m in Sources */,
+				5E3F65192633AEDE0019F99E /* AppDelegate.m in Sources */,
+				5E1260DB2633B9BC00112035 /* TYLoginViewController.m in Sources */,
+				5E34521B2636B43200059854 /* TYEnumTableViewCell.m in Sources */,
+				5E1261032633BEA900112035 /* TYRegisterViewController.m in Sources */,
+				5E3452092636A2AF00059854 /* TYBaseTableViewCell.m in Sources */,
+				5E12614226340BF200112035 /* TYTableViewSecionModel.m in Sources */,
+				5E1260C02633B78F00112035 /* TYUserCenterViewController.m in Sources */,
+				5E3F652A2633AEE10019F99E /* main.m in Sources */,
+				5E3451982635136400059854 /* TYFamilyEditViewController.m in Sources */,
+				5E34520026369F4400059854 /* TYDeviceControlViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3F652B2633AEE10019F99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3F65342633AEE10019F99E /* TuyaSmartHomeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3F65362633AEE10019F99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3F653F2633AEE10019F99E /* TuyaSmartHomeDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E3F65312633AEE10019F99E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E3F65132633AEDE0019F99E /* TuyaSmartHomeDemo */;
+			targetProxy = 5E3F65302633AEE10019F99E /* PBXContainerItemProxy */;
+		};
+		5E3F653C2633AEE10019F99E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E3F65132633AEDE0019F99E /* TuyaSmartHomeDemo */;
+			targetProxy = 5E3F653B2633AEE10019F99E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E3F65202633AEDE0019F99E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E3F65212633AEDE0019F99E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E3F65252633AEE10019F99E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E3F65262633AEE10019F99E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E3F65412633AEE10019F99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E3F65422633AEE10019F99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E3F65442633AEE10019F99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F7343AEE2002CF66CD2A88 /* Pods-TuyaSmartHomeDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7WECK7Z5Q;
+				ENABLE_BITCODE = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXCLUDED_ARCHS = armv7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(TARGET_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = TuyaSmartHomeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TYTestDemo.iOS.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E3F65452633AEE10019F99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE5231A53C21D9B0CECAE843 /* Pods-TuyaSmartHomeDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7WECK7Z5Q;
+				ENABLE_BITCODE = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXCLUDED_ARCHS = armv7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(TARGET_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = TuyaSmartHomeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TYTestDemo.iOS.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E3F65472633AEE10019F99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7WECK7Z5Q;
+				INFOPLIST_FILE = TuyaSmartHomeDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuyasmart.demo.TuyaSmartHomeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TuyaSmartHomeDemo.app/Contents/MacOS/TuyaSmartHomeDemo";
+			};
+			name = Debug;
+		};
+		5E3F65482633AEE10019F99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7WECK7Z5Q;
+				INFOPLIST_FILE = TuyaSmartHomeDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuyasmart.demo.TuyaSmartHomeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TuyaSmartHomeDemo.app/Contents/MacOS/TuyaSmartHomeDemo";
+			};
+			name = Release;
+		};
+		5E3F654A2633AEE10019F99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7WECK7Z5Q;
+				INFOPLIST_FILE = TuyaSmartHomeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuyasmart.demo.TuyaSmartHomeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TuyaSmartHomeDemo;
+			};
+			name = Debug;
+		};
+		5E3F654B2633AEE10019F99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7WECK7Z5Q;
+				INFOPLIST_FILE = TuyaSmartHomeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuyasmart.demo.TuyaSmartHomeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TuyaSmartHomeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E3F650F2633AEDE0019F99E /* Build configuration list for PBXProject "TuyaSmartHomeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3F65412633AEE10019F99E /* Debug */,
+				5E3F65422633AEE10019F99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E3F65432633AEE10019F99E /* Build configuration list for PBXNativeTarget "TuyaSmartHomeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3F65442633AEE10019F99E /* Debug */,
+				5E3F65452633AEE10019F99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E3F65462633AEE10019F99E /* Build configuration list for PBXNativeTarget "TuyaSmartHomeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3F65472633AEE10019F99E /* Debug */,
+				5E3F65482633AEE10019F99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E3F65492633AEE10019F99E /* Build configuration list for PBXNativeTarget "TuyaSmartHomeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3F654A2633AEE10019F99E /* Debug */,
+				5E3F654B2633AEE10019F99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E3F650C2633AEDE0019F99E /* Project object */;
+}

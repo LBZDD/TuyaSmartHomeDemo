@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  TestDemo
+//
+//  Created by 林波 on 2021/4/22.
+//
+
+#ifndef PrefixHeader_h
+#define PrefixHeader_h
+
+#import <TuyaSmartHomeKit/TuyaSmartKit.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <libextobjc/extobjc.h>
+#import <Masonry/Masonry.h>
+#import "TYTableViewSecionModel.h"
+
+#define CURRENTHOME_ID @"currentHomeId"
+
+#endif /* PrefixHeader_h */
